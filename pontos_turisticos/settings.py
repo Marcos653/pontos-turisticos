@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
-import django_heroku
+import django_on_heroku
 from pathlib import Path
 
 
@@ -134,4 +134,4 @@ MEDIA_ROOT = 'images'
 
 MEDIA_URL = '/media/'
 
-django_heroku.settings(locals())
+django_on_heroku.settings(locals())
